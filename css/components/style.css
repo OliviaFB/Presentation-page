@@ -1,0 +1,18 @@
+@import url(components/banner.css);
+@import url(components/button.css);
+
+/*General CSS*/
+
+body {
+  background-color: #F8F8F8;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+/*Specific CSS*/
