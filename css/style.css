@@ -1,0 +1,43 @@
+@import url(components/banner.css);
+@import url(components/button.css);
+
+/*General CSS*/
+
+body {
+  background-color: #F8F8F8;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+/*Specific CSS*/
+
+#container-page-body {
+  margin: 40px 0 0 40px;
+}
+
+#about-me-container {
+  display: flex;
+}
+
+#about-me-description {
+  width: 50%;
+}
+
+.paragraph-styling {
+  padding-bottom: 15px;
+  text-align: justify;
+}
+
+.hp-icons {
+  width: 50%;
+}
+
+svg {
+  padding: 6% 6% 6% 0;
+}
