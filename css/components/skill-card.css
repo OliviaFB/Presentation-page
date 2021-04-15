@@ -1,0 +1,29 @@
+.skill-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 50px;
+}
+
+.skill-card {
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  box-shadow: 0 7px 30px 0px rgb(150 170 180 / 50%);
+  border-radius: 16px;
+}
+
+.skill-title {
+  text-align: center;
+  font-weight: bold;
+  padding: 16px;
+}
+
+.skill-card img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16px;
+  width: 30%;
+  padding: 5px;
+}
