@@ -1,7 +1,24 @@
 @import url(components/banner.css);
+@import url(components/second-banner.css);
 @import url(components/button.css);
 @import url(components/skill-card.css);
 @import url(components/project-card.css);
+
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 /*General CSS*/
 
@@ -11,7 +28,6 @@ body {
 
 h1 {
   font-size: 2.5rem;
-  margin-bottom: 30px;
 }
 
 h2 {
@@ -20,30 +36,12 @@ h2 {
 
 /*Specific CSS*/
 
-#about-me-container {
-  display: flex;
-  margin: 100px 100px 50px 100px;
-}
-
-.about-me-cards {
-  display: flex;
-}
-
-.paragraph-styling {
-  padding-bottom: 15px;
-  text-align: justify;
-}
-
-.hp-icons {
-  width: 50%;
-}
-
-svg {
-  padding: 6% 6% 6% 0;
-}
-
-.skills-container {
-  margin: 0 240px 100px 240px;
+.container-page {
+  max-width: 100%;
+  padding-right: 80px;
+  padding-left: 80px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .center {
@@ -52,4 +50,8 @@ svg {
 
 .project-cards {
   display: flex;
+}
+
+.project-card img {
+  size: 50%;
 }
