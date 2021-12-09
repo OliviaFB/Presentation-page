@@ -2,6 +2,6 @@
   background: #6562CF;
 }
 
-.nav-text {
-  color: white;
+.navbar a {
+  color: white !important;
 }
