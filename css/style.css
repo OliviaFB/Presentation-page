@@ -3,6 +3,7 @@
 @import url(components/button.css);
 @import url(components/skill-card.css);
 @import url(components/project-card.css);
+@import url(components/nav.css);
 
 
 .column {
@@ -27,7 +28,8 @@ body {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 50px;
+  color: #6562CF;
 }
 
 h2 {
