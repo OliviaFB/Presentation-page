@@ -1,21 +1,9 @@
-@media screen and (min-width: 992px) {
-  .project-cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px;
-  }
-}
-
-@media screen and (max-width: 992px) {
-  .project-cards {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 50px;
-  }
-}
-
-.project-cards {
-  margin-bottom: 100px;
+.container-cards {
+  margin: 0 130px 100px 130px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
 }
 
 .project-card {
