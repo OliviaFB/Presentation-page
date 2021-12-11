@@ -1,22 +1,9 @@
-@media screen and (min-width: 992px) {
-  .skill-cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 50px;
-  }
-}
-
-@media screen and (max-width: 992px) {
-  .skill-cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 50px;
-    padding: 0px 88px;
-  }
-}
-
 .skill-cards {
   margin-bottom: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
 }
 
 .skill-card {
