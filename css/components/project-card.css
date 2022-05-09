@@ -20,7 +20,7 @@
 .project-title {
   text-align: center;
   font-weight: bold;
-  color: #6562CF;
+  color: #6562cf;
 }
 
 .project-card img {
@@ -42,4 +42,12 @@
   margin-top: 10px;
 }
 
+.stox {
+  color: gray;
+  font-weight: bold;
+}
 
+a:hover {
+  text-decoration: none;
+  color: #6562cf;
+}

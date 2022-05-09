@@ -5,13 +5,14 @@
 @import url(components/project-card.css);
 @import url(components/nav.css);
 
-
 .column {
   float: left;
   width: 50%;
 }
 
-.row {margin: 0 -5px;}
+.row {
+  margin: 0 -5px;
+}
 
 .row:after {
   content: "";
@@ -22,13 +23,13 @@
 /*General CSS*/
 
 body {
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   color: #a5a3a3;
 }
 
 h1 {
   font-size: 50px;
-  color: #6562CF;
+  color: #6562cf;
 }
 
 h2 {
